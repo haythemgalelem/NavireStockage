@@ -1,1 +1,2 @@
 c:\users\julien.ravia\documents\visual studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.exe.config
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.exe.config
