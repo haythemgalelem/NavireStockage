@@ -10,6 +10,11 @@ namespace NavireStockage
     {
         private Int32 capaDispo;
 
+        public Stockage(int pCapaDispo)
+        {
+            this.capaDispo = pCapaDispo;
+        }
+
         /// <summary>
         /// Retourner la capacité disponible dans la zone de stockage
         /// </summary>
@@ -25,7 +30,7 @@ namespace NavireStockage
         /// <param name="pQté"></param>
         public void Stocker(Int32 pQté)
         {
-            this.capaDispo = capaDispo + pQté; 
+            this.capaDispo = this.capaDispo - pQté; 
         }
 
         /// <summary>
