@@ -1,2 +1,7 @@
 c:\users\julien.ravia\documents\visual studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.exe.config
 C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.exe.config
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.exe
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\bin\Debug\NavireStockage.pdb
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\obj\Debug\NavireStockage.exe
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\obj\Debug\NavireStockage.pdb
+C:\Users\Julien\Documents\Visual Studio 2015\Projects\NavireStockage\NavireStockage\obj\Debug\NavireStockage.csprojResolveAssemblyReference.cache
