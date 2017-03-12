@@ -20,7 +20,8 @@ namespace NavireStockage
         /// <param name="pNomNavire">Nom du navire</param>
         /// <param name="pNoLloyds">Numéro du navire</param>
         /// <param name="pLibelleFret">Libelleé du fret</param>
-        public Navire(Int32 pQteFret, string pNomNavire, string pNoLloyds, string pLibelleFret)
+        public Navire(Int32 pQteFret, string pLibelleFret, string pNomNavire, string pNoLloyds)
+        // Quantité fret, libellé du fret, nom du navire, numéro du navire
         {
             this.qtéFret = pQteFret;
             this.libelleFret = pLibelleFret;
@@ -35,6 +36,11 @@ namespace NavireStockage
         public Int32 ObtenirQtéFret()
         {
             return this.qtéFret;
+        }
+
+        public string ObtenirNomNavire()
+        {
+            return this.nomNavire;
         }
 
         /// <summary>
@@ -58,12 +64,12 @@ namespace NavireStockage
         /// <param name="pQté">Quantité a décharger</param>
         public void Décharger(int pQté)
         {
-            if(pQté <= this.qtéFret && EstDéchargé())
+            if(pQté <= this.qtéFret)
             {
                 this.qtéFret = this.qtéFret - pQté;
             } else
             {
-                qtéFret = qtéFret - qtéFret;
+                throw new Exception("La quantité a décharger est plus grande que la quantité de fret du navire");
             }
         }
     }
